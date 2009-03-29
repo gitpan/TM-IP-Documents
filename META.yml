@@ -1,0 +1,32 @@
+---
+abstract: 'REST service for Topic Maps document subspaces'
+author:
+  - 'Robert Barta, C<< <rho at devc.at> >>'
+configure_requires:
+  ExtUtils::MakeMaker: 6.50
+distribution_type: module
+generated_by: 'Module::Install version 0.81'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: TM-IP-Documents
+no_index:
+  directory:
+    - inc
+    - t
+requires:
+  Catalyst::Action::REST: 0.71
+  Catalyst::Action::RenderView: 0
+  Catalyst::Plugin::ConfigLoader: 0
+  Catalyst::Plugin::Static::Simple: 0
+  Catalyst::Runtime: 5.7014
+  Config::General: 0
+  HTTP::Request::Common: 0
+  HTTP::Status: 0
+  JSON: 0
+  Test::More: 0
+  parent: 0
+resources:
+  license: http://dev.perl.org/licenses/
+version: 0.01
