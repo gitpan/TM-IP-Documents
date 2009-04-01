@@ -1,4 +1,7 @@
 This file documents the revision history for Perl extension TM::IP::Documents.
 
+0.02  Wed Apr  1 16:58:08 CEST 2009
+      - added missing dependency
+
 0.01  2009-03-28 16:26:10
-        - minimal functionality, just to test REST controller
+      - minimal functionality, just to test REST controller

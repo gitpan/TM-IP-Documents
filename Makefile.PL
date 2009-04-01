@@ -14,6 +14,7 @@ requires 'Config::General'; # This should reflect the config file format you've 
                  # See Catalyst::Plugin::ConfigLoader for supported formats
 
 requires 'Catalyst::Action::REST' => '0.71';
+requires 'Catalyst::View::Mason';
 requires 'HTTP::Status';
 requires 'JSON';
 requires 'Test::More';

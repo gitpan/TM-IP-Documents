@@ -1,5 +1,7 @@
 package TM::IP::Documents;
 
+use 5.008;
+
 use strict;
 use warnings;
 
@@ -19,7 +21,7 @@ use Catalyst qw/
                 ConfigLoader
                 Static::Simple/;
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 __PACKAGE__->config( name => 'TM::IP::Documents' );
 __PACKAGE__->log(Catalyst::Log->new( 'warn', 'error' ));
