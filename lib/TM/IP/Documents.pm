@@ -21,7 +21,7 @@ use Catalyst qw/
                 ConfigLoader
                 Static::Simple/;
 
-our $VERSION = '0.02';
+our $VERSION = '0.03';
 
 __PACKAGE__->config( name => 'TM::IP::Documents' );
 __PACKAGE__->log(Catalyst::Log->new( 'warn', 'error' ));

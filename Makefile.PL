@@ -19,8 +19,13 @@ requires 'HTTP::Status';
 requires 'JSON';
 requires 'Test::More';
 requires 'HTTP::Request::Common';
+
+requires 'File::Copy::Recursive';
+requires 'File::Slurp';
+requires 'Data::Alias'; # necessary?
+
 catalyst;
 
-install_script glob('script/*.pl');
+#install_script glob('script/*.pl');
 auto_install;
 WriteAll;

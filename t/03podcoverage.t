@@ -1,6 +1,6 @@
 use strict;
 use warnings;
-use Test::More;
+use Test::More tests => 2;
 
 eval "use Test::Pod::Coverage 1.04";
 plan skip_all => 'Test::Pod::Coverage 1.04 required' if $@;
@@ -8,4 +8,7 @@ plan skip_all => 'Test::Pod::Coverage 1.04 required' if $@;
 
 my $parms = { trustme => [qr/_(POST|GET|DELETE|PUT)/, qr/^(begin|end)$/] };
 
-all_pod_coverage_ok($parms);
+pod_coverage_ok ( "TM::IP::Documents", $parms);
+pod_coverage_ok ( "TM::IP::Documents::Controller::Root", $parms);
+
+# all_pod_coverage_ok($parms);

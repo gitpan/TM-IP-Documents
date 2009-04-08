@@ -1,5 +1,8 @@
 This file documents the revision history for Perl extension TM::IP::Documents.
 
+0.03  Wed Apr  8 20:39:59 CEST 2009
+      - added more missing dependencies
+
 0.02  Wed Apr  1 16:58:08 CEST 2009
       - added missing dependency
 

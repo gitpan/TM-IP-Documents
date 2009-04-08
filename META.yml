@@ -23,6 +23,9 @@ requires:
   Catalyst::Runtime: 5.7014
   Catalyst::View::Mason: 0
   Config::General: 0
+  Data::Alias: 0
+  File::Copy::Recursive: 0
+  File::Slurp: 0
   HTTP::Request::Common: 0
   HTTP::Status: 0
   JSON: 0
@@ -31,4 +34,4 @@ requires:
   perl: 5.8.0
 resources:
   license: http://dev.perl.org/licenses/
-version: 0.02
+version: 0.03
